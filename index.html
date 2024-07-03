@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Rick and Morty Characters</h1>
+    
+    <!-- Botón para obtener todos los personajes -->
+    <button id="getAllCharacters">Get All Characters</button>
+    
+    <!-- Campos de filtro -->
+    <div class="filters">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="status" placeholder="Status">
+        <input type="text" id="species" placeholder="Species">
+        <input type="text" id="type" placeholder="Type">
+        <input type="text" id="gender" placeholder="Gender">
+        <button id="filterCharacters">Filter Characters</button>
+    </div>
+    
+    <!-- Contenedor para mostrar personajes -->
+    <div id="characterContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
